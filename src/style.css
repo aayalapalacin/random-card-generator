@@ -1,1 +1,36 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+
+.card {
+  background: white;
+  width: 274px;
+  height: 400px;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.suit1 {
+  display: flex;
+  justify-content: left;
+  height: 33%;
+  padding-left: 14px;
+  font-size: 75px;
+  align-items: center;
+}
+.suit2 {
+  display: flex;
+  justify-content: right;
+  font-size: 75px;
+  padding-right: 14px;
+  height: 33%;
+  align-items: center;
+}
+
+.number {
+  font-size: 97px;
+  display: flex;
+  justify-content: center;
+  height: 33.3%;
+  align-items: center;
+}
