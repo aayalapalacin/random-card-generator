@@ -39,4 +39,20 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  margin: 5px;
+}
+
+.widthHeight {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+#width {
+  margin-left: 5px;
+}
+.changeBtn {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
 }
