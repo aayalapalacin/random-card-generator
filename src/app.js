@@ -55,3 +55,17 @@ document.querySelector(".btn").addEventListener("click", () => {
   emptyCard();
   randomGenerator();
 });
+
+setInterval(() => {
+  emptyCard();
+  randomGenerator();
+}, 3000);
+
+let w = document.querySelector("#width");
+let h = document.querySelector("#height");
+
+document.querySelector("#changeDimension").addEventListener("click", () => {
+  let card = document.querySelector(".card");
+  card.style.width = w.value + "px";
+  card.style.height = h.value + "px";
+});
