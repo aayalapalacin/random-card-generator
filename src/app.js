@@ -42,3 +42,16 @@ let randomGenerator = () => {
 window.onload = function() {
   randomGenerator();
 };
+let emptyCard = () => {
+  let suit1 = document.querySelector(".suit1");
+  suit1.innerHTML = "";
+  let number = document.querySelector(".number");
+  number.innerHTML = "";
+  let suit2 = document.querySelector(".suit2");
+  suit2.innerHTML = "";
+};
+
+document.querySelector(".btn").addEventListener("click", () => {
+  emptyCard();
+  randomGenerator();
+});

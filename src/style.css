@@ -16,7 +16,7 @@ body {
   height: 33%;
   padding-left: 14px;
   font-size: 75px;
-  align-items: center;
+  align-items: start;
 }
 .suit2 {
   display: flex;
@@ -24,7 +24,7 @@ body {
   font-size: 75px;
   padding-right: 14px;
   height: 33%;
-  align-items: center;
+  align-items: end;
 }
 
 .number {
@@ -33,4 +33,10 @@ body {
   justify-content: center;
   height: 33.3%;
   align-items: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
 }
